@@ -1,0 +1,93 @@
+/* Add styling for header, main, and footer */
+header {
+  background-color: #333;
+  color:greenyellow;
+  text-align: center;
+  padding: 3px;
+  background-image: url('download.jpeg'); 
+  background-size: 120px 100px; /* Set the size of the logo */
+  background-position: left; 
+  background-repeat: no-repeat; 
+}
+
+
+footer {
+  background-color: #333;
+  color:greenyellow ;
+  text-align: center;
+  padding: 1.5px;
+}
+
+main {
+  padding: 120px;
+  background-color: rgb(151, 139, 135); /* Set the background color for the main content */
+}
+
+.orphanage-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px; /* Set a maximum width for the list */
+  margin: 0 auto; /* Center the list horizontally */
+  padding: 20px;
+  background-color: #160303; 
+  border-radius: 10px;
+  box-shadow: 0 0 100px rgba(177, 250, 7, 0.2);
+  overflow-y: auto; /* Add a vertical scrollbar if the list overflows */
+  background-size: contain; /* Adjust background size to contain the image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-position: center; /* Position the image in the center */
+}
+
+.card {
+  width: calc(30% - 20px); 
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(151, 139, 135); 
+  border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+}
+
+
+/* Sticky footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+body {
+  
+  background-size: cover; /* Set the background size to cover the entire body */
+  background-attachment: fixed; /* Fix the background in place */
+  background-repeat: repeat; /* Allow the background image to repeat */
+  
+}
+
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+ }
+ 
+ .progress {
+  width: 50%;
+  background-color: #e0e0e0;
+  height: 20px;
+  margin-top: 20px; 
+}
+
+.progress .progress-done {
+  background: linear-gradient(to right, #00a1ff, #00a1ff);
+  height: 100%;
+  width: 0;
+  text-align: center;
+  padding-right: 10px;
+  color: white;
+  font-weight: bold;
+}
